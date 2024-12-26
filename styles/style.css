@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'VCR OSD Mono';
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 900px;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.topbar {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+
+.measurement {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    font-size: 110px;
+}
+
+.date {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.sun-time {
+    display: flex;
+    margin-top: 32px;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.sun__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    border-radius: 999px;
+}
+
+.sun__item__value {
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.footer {
+    align-self: flex-start;
+    color: rgba(255, 255, 255, 80%)
+}
